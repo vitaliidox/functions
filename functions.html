@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<!-- Task 1 -->
+<!--
+<script>
+
+    function is_year_leap (){
+        let year = prompt('enter any year for check')
+        let  leap = 'Year is leap';
+
+        year%4==0? (year%100==0? (year%400==0? alert(leap): alert('no leap')):alert(leap) ):alert('no leap');
+    }
+    is_year_leap();
+
+</script>
+-->
+
+<!--Task 2-->
+<!--
+<script>
+
+    function rectangle (sideA, sideB){
+        alert('Area is '+sideA*sideB);
+    }
+    rectangle(prompt('enter side A'),prompt('enter side B'));
+</script>
+-->
+
+<!--Task 3-->
+<!--
+<script>
+    function seasons(month){
+        switch(month){
+            case '1':
+                alert('January');
+                break;
+            case '2':
+                alert('February');
+                break;
+            case '3':
+                alert('March');
+                break;
+            case '4':
+                alert('April');
+                break;
+            case '5':
+                alert('May');
+                break;
+            case '6':
+                alert('June');
+                break;
+            case '7':
+                alert('July');
+                break;
+            case '8':
+                alert('August');
+                break;
+            case '9':
+                alert('September');
+                break;
+            case '10':
+                alert('October');
+                break;
+            case '11':
+                alert('November');
+                break;
+            case '12':
+                alert('December');
+                break;
+        }
+    }
+    seasons(prompt('Enter the month number'));
+</script>
+-->
+<!--
+<script>
+    function season(number){
+        let month = ['','January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+        alert(month[number]);
+    }
+    season(+prompt('enter the month number'));
+</script>
+-->
+
+<!--Task 4-->
+<!--
+<script>
+function bank (money,years){
+
+    for(i=0;i<years;i++){
+        money+=money*0.1;
+    }
+    alert('Summ of money '+money.toFixed(2));
+}
+    bank(+prompt('enter summ of money'),+prompt('enter number of years'));
+</script>
+-->
+
+<!--Task5-->
+<!--
+<script>
+
+    function primeNumb(){
+        let numb = prompt('Enter the number');
+        if(numb>0&&numb<=1000){
+            if(numb%2==0||numb%3==0){
+                alert('Is not prime number');
+            }else{alert('number is prime')}
+        }else{alert('enter number from 0 and 1000')}
+    }
+    primeNumb();
+
+</script>
+-->
+<!--
+<script>
+    function prime(){
+let numb = prompt('Enter the number')
+return numb%2!=0&&numb%3!=0;
+}
+ alert(prime())
+</script>
+-->
+
+
+</body>
+</html>
